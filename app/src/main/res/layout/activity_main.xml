@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Location"
+    android:weightSum="4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+    >
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="194dp"
+        android:layout_height="35dp"
+        android:background="#000BEDD9" android:paddingBottom="10dp"
+        android:text="Call HelpLine Number.."
+        android:textAlignment="center"
+        android:textSize="18sp"
+         />
+
+        <Button
+        android:id="@+id/call"
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:background="@drawable/call"
+        android:onClick="call"
+        />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textSize="10sp"
+        android:text="Click Call Button to Call Central Helpline Number  or "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_weight="0.25"
+        android:text="Long Click Call Button to know Helpline Numbers of States"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="254dp"
+        android:layout_height="161dp"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/socialdistance" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="300dp"
+        android:layout_height="327dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+         />
+
+
+</LinearLayout>

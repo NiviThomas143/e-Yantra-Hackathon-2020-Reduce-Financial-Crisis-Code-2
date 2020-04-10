@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="just_enter_landmark_we_will_get_your_location"><![CDATA[Just Enter Landmark & we will get your location]]></string>
+    <string name="CorornaAware">CoronaAware</string>
+    <string name="Aware">Awareness</string>
+    <string-array name="equipment">
+        <item>masks</item>
+        <item>gloves</item>
+        <item>sanitizers</item>
+        <item>beds</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="info">
+        <item color="white">Beggars/Helpless people</item>
+        <item>Quarantined Persons</item>
+    </string-array>
+
+    <string-array name="building">
+        <item>Function Hall</item>
+        <item>Building</item>
+    </string-array>
+
+</resources>
